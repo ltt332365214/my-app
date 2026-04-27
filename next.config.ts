@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  distDir: "dist",
+  // Vercel supports native Next.js SSR/API routes, no static export needed
 };
 
 export default nextConfig;
